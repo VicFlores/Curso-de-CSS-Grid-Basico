@@ -1,0 +1,34 @@
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-rows: 100px 200px; /** Cuantas rows y cual sera su ancho */
+  grid-auto-columns: 100px; /** Columns automáticas con un tamaño especifico */
+  grid-auto-flow: column; /** Modificar el orden de la grid  */
+  row-gap: 15px; /** Espacio entre filas */
+  column-gap: 30px; /** Espacio entre columnas  */
+  /* gap: 40px; */ /* Espaciado igual entre filas y columnas */
+  /* grid-template-columns: 100px 200px 300px; */ /* Cuantas columns y cual sera su ancho */
+}
+
+.item {
+  border: 5px solid #00bcd4;
+  font-size: 4rem;
+}
+
+/*? Reto */
+
+.reto_container {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+  grid-auto-flow: column;
+}
+
+.reto_item {
+  border: 5px solid #00bcd4;
+  font-size: 2rem;
+}
